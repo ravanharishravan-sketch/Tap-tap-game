@@ -1,0 +1,23 @@
+[gd_project]
+
+config_version=4
+
+[application]
+
+config/name="Tap Tap Game"
+config/description="A fun pixel-based tap-to-jump game"
+run/main_scene="res://scenes/Main.tscn"
+config/icon="res://assets/icon.png"
+
+[display]
+
+window/size/width=540
+window/size/height=960
+window/handheld_mode=true
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[physics]
+
+physics_engine="GodotPhysics2D"
+2d/physics_engine="GodotPhysics2D"
